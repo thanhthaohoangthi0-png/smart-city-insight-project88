@@ -1,4 +1,4 @@
-streamlit as st
+import streamlit as st
 import pandas as pd
 import pydeck as pdk
 import google.generativeai as genai
