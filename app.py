@@ -194,7 +194,7 @@ st.pydeck_chart(pdk.Deck(
 st.divider()
 st.subheader("🤖 Trợ lý AI (Hệ thống phân tích chuyên sâu)")
 
-genai.configure(api_key="AIzaSyBlREnSvPhoiJJ6Sw4M3uHqfrCbT3Jp8pI")
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 @st.cache_resource
 def find_any_model():
